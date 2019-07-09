@@ -1,4 +1,9 @@
-
+/*!
+ * Bootstrap v4.0.0 (https://getbootstrap.com)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -37,7 +42,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -55,7 +60,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -363,15 +368,15 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 3rem;
-}
-
-h2, .h2 {
   font-size: 2.5rem;
 }
 
-h3, .h3 {
+h2, .h2 {
   font-size: 2rem;
+}
+
+h3, .h3 {
+  font-size: 1.75rem;
 }
 
 h4, .h4 {
@@ -504,7 +509,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: 'Open Sans', sans-serif;
 }
 
 code {
@@ -2566,8 +2571,8 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #316a1a;
-  border-color: #316a1a;
+  background-color: #28a745;
+  border-color: #28a745;
 }
 
 .btn-success:hover {
@@ -5564,7 +5569,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5677,7 +5682,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
