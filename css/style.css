@@ -638,7 +638,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #call-to-action {
   overflow: hidden;
-  background: linear-gradient(#316a1a63, #40493B88), url(../img/banner.png) fixed center center;
+  background: linear-gradient(#316a1a63, #40493B88), url(../img/buying.jpg) fixed center center;
   background-size: cover;
   padding: 220px 0;
 }
